@@ -3,8 +3,8 @@ class Usuario {
     #email
 
     setSenha(novaSenha){
-        if (novaSenha.lenght >= 6){
-            return console.log(`Senha autenticada com sucesso!`)
+        if (novaSenha.length >= 6){
+            console.log(`Senha autenticada com sucesso!`)
         }else{
             console.log(`A senha deve ter 6 ou mais caracteres!`)
         }
