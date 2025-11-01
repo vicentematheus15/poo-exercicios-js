@@ -14,12 +14,14 @@ class Usuario {
     autenticar(senhaInformada){
         if (senhaInformada === this.#senha){
             console.log("Entrada autorizada!")
+            return true
         }else{
             console.log("Senha e/ou email incorretos")
+            return false
         }
     }
 }
 
 const usuario1 = new Usuario();
 usuario1.setSenha("1234567");
-usuario1.autenticar("123456")
+usuario1.autenticar("1234567")
