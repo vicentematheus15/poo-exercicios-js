@@ -4,7 +4,7 @@ class Usuario {
 
     setSenha(novaSenha){
         if (novaSenha.lenght >= 6){
-            console.log(`Senha autenticada com sucesso!`)
+            return console.log(`Senha autenticada com sucesso!`)
         }else{
             console.log(`A senha deve ter 6 ou mais caracteres!`)
         }
