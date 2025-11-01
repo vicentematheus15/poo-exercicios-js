@@ -12,7 +12,7 @@ class Usuario {
     }
 
     autenticar(senhaInformada){
-        if (senhaInformada === "1234567"){
+        if (senhaInformada === this.#senha){
             console.log("Entrada autorizada!")
         }else{
             console.log("Senha e/ou email incorretos")
