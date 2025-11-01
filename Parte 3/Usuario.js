@@ -24,4 +24,6 @@ class Usuario {
 
 const usuario1 = new Usuario();
 usuario1.setSenha("1234567");
-usuario1.autenticar("1234567")
+
+usuario1.autenticar("1234567");
+usuario1.autenticar("abcd");
