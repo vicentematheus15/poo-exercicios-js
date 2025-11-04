@@ -14,6 +14,6 @@ class FuncionarioHorista extends Funcionario {
         this.valorHora = valorHora;
     }
     calcularSalario(){
-        
+        return this.horasTrabalhadas * this.valorHora
     }
 }
