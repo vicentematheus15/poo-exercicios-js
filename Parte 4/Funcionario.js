@@ -28,3 +28,9 @@ class FuncionarioAssalariado extends Funcionario {
     }
 
 }
+
+const funcionarios = [
+    new FuncionarioHorista("Carlos", 160, 25),
+    new FuncionarioAssalariado("Pedro", 4000),
+    new FuncionarioHorista("Ana", 120, 30)
+]
