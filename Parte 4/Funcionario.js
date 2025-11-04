@@ -34,3 +34,7 @@ const funcionarios = [
     new FuncionarioAssalariado("Pedro", 4000),
     new FuncionarioHorista("Ana", 120, 30)
 ]
+
+for (const func of funcionarios){
+    console.log(`${func.nome} - Salário: R$ ${func.calcularSalario().toFixed(2)}`)
+}
