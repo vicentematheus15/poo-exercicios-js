@@ -18,3 +18,10 @@ class Retangulo extends Forma {
         
     }
 }
+
+class Circulo extends Forma {
+
+    calcularArea(){
+        
+    }
+}
