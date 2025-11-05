@@ -16,13 +16,6 @@ class Quadrado extends Forma {
 }
 
 class Retangulo extends Forma {
-    constructor(lado){
-        super()
-        this.lado = lado;
-    }
-    calcularArea(){
-        const area = this.lado * this.lado
-    }
     constructor(base, altura){
         super()
         this.base = base;
