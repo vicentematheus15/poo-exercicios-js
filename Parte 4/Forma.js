@@ -32,7 +32,7 @@ class Circulo extends Forma {
         this.raio = raio
     }
     calcularArea(){
-        
+        return Math.PI * Math.pow(this.raio, 2)
     }
 }
 
