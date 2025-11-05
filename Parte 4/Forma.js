@@ -36,5 +36,8 @@ class Circulo extends Forma {
 const formas = [
     new Quadrado(5, 5),
     new Retangulo(5, 10),
-    new Crirculo()
+    new Circulo(2)
 ]
+for (const forma of formas){
+    console.log(`${forma.constructor.name} - Área: ${forma.calcularArea()}`)
+}
