@@ -34,5 +34,7 @@ class Circulo extends Forma {
 }
 
 const formas = [
-    new Quadrado(5, 5)
+    new Quadrado(5, 5),
+    new Retangulo(5, 10),
+    new Crirculo()
 ]
