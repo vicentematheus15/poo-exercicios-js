@@ -11,7 +11,7 @@ class Quadrado extends Forma {
         this.lado = lado;
     }
     calcularArea(){
-        const area = this.lado * this.lado
+        return this.lado * this.lado
     }
 }
 
@@ -22,12 +22,15 @@ class Retangulo extends Forma {
         this.altura = altura;
     }
     calcularArea(){
-        const area = this.base * this.altura
+        return this.base * this.altura
     }
 }
 
 class Circulo extends Forma {
-
+    constructor(raio){
+        super()
+        this.raio = raio
+    }
     calcularArea(){
         
     }
