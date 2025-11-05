@@ -8,6 +8,13 @@ class Forma {
 class Quadrado extends Forma {
 
     calcularArea(){
+
+    }
+}
+
+class Retangulo extends Forma {
+
+    calcularArea(){
         
     }
 }
